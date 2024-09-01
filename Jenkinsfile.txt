@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Cloning the repository
-                bat '''git clone https://github.com/2340-shannon/docker-image-jenkins-pipeline.git
+                bat '''https://github.com/allieah/docker-image-jenkins-pipeline.git
 git checkout main 
 '''
             }
